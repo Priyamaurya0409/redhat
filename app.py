@@ -15,7 +15,7 @@ Index for checking Microservice is running...
 """""""""""""""""""""""""""""""""""""""""""""""
 @app.route("/")
 def index():
-  return "Python Microservice for redhat is Found"
+  return render_template("index.html")
  
 
 if __name__ == "__main__":
