@@ -1,5 +1,4 @@
 from flask import Flask, render_template, request, Response, stream_with_context, jsonify,flash,Markup
-from services import freshdesk_services as freshdesk_service
 import requests
 import json
 import os
