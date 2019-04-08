@@ -1,0 +1,273 @@
+<!Doctype html>
+<html class="full">
+	<head>
+		<title>CogniSearch | Home Page</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		<link rel="stylesheet" href="../static/css/style.css">
+		<link rel="stylesheet" href="../static/css/login.css">
+		<!--<script type="text/javascript" src="../static/scripts/canjob.js"></script>-->
+	
+	<style>
+				/*.full {
+    background: url('../static/images/landing.jpg') no-repeat center center fixed;
+    background-color: rbga(0,0,0,0.1) ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+   
+}*/
+			/* body {
+    background-image: url('../static/images/home_background1.jpg');
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 /*background-size: 1380px 768px;*/
+	 /*-webkit-background-size: cover;*/
+	 /* background-color: rbga(0,0,0,0.1) ;
+	 
+    
+} */ 
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    body {
+      /* force devises with a smaller width to observe this style */
+      /*background-image: url('../static/images/landing.jpg');*/
+	  background-size: 100% 1744px;
+	  background-repeat: no-repeat;
+    }
+}
+@media only screen and (min-device-width : 720px) and (max-device-width : 1024px) {
+    body {
+      /* force devises with a smaller width to observe this style */
+      /*background-image: url('../static/images/landing.jpg');*/
+	  background-size: 1026px 217%;
+	  background-repeat: no-repeat;
+    }
+}
+				</style>	
+	</head>
+	<body id= "home" style= "background-image: url('../static/images/home_background1.jpg');">
+					<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<!--<button type="button" class="navbar-toggle collapsed"
+					data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+					aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>-->
+				<img alt="Brand"
+					src="../static/images/tata-blue.png" style="height: 40px; width: 65px;float: left; margin-top: -9px;"> 
+				<a class="navbar-brand font-reem" id= "tag" style="padding-top: 3px;" href="#"> Recruitment and Staffing
+				</a>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse"
+				id="bs-example-navbar-collapse-1">
+				<!--<ul class="nav navbar-nav navbar-right">
+					<li><a id="home" class="font-reem" href="#">Home</a></li>					
+				</ul>-->
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container-fluid -->
+	</nav> 
+		
+		<!--<nav class="navbar navbar-inverse navbar-fixed-top mynavbar">
+		  <div class="container-fluid">
+			<div class="navbar-header">
+				<img class="logo_img" src="../static/images/tata.png">
+				</div>
+				<div class="navbar-header">
+				  <a class="navbar-brand companyname" href="#">Tata Consultancy Services</a>
+				</div>
+			</div>
+		</nav>-->
+<div class="container mycontainer" style="overflow-x: hidden;">
+
+<div id ="con1" class="col-md-4 col-md-offset-4 login_col" style=" margin-top: 111px; background-color: rgba(34, 34, 34, 0.9);">
+
+	<div class="imgcontainer">
+			  <div id="chngeid">Change your Role</div>
+    <img src="../static/images/img_avatar2.png"  alt="Avatar" class="avatar">
+  </div>
+
+<!--<label><b>Role</b></label>-->
+ <div id="jr" class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Select your Role
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu login_dropdown" role="menu" aria-labelledby="menu1">
+      <li role="presentation" style="cursor: pointer;" id="jS1"><a role="menuitem"  tabindex="-1">Jobseeker</a></li>
+      <li role="presentation" style="cursor: pointer;" id="R1"><a role="menuitem" tabindex="-1">Recruiter</a></li>
+    </ul>
+  </div>
+<div id ="jr1" style="    margin-top: -13px;margin-bottom: -85px;" class="container">
+     <!--<form action="">-->
+    <p><span>
+	  <label><b><span>Username</span></b></label>
+    <input type="text" id="uname1" placeholder="Enter Username" name="uname" required>
+     </span>
+			<span>
+    <label><b><span>Password</span></b></label>
+    <input type="password" id="psw1" placeholder="Enter Password" name="psw" required>
+     </span> </p>
+    <button id="sub1" type="submit">Login</button>
+    <!--<button type="button" id="cancel1">Forgot Password</button>
+		<button type="button" style=v  b "margin-left: 165px;margin-top: -46px;" id="newUser">Sign Up</button>-->
+		<div id="cancel12">Forgot Password
+	  <div id="newUser12" style="margin-left: 209px;margin-top: -46px;">Sign Up</div></div>
+		 <!--</form>-->
+  </div>
+</div>
+</div>
+
+  <div class="RCM" id="chatbotindex" style="position:fixed;right:0px;bottom:30px;z-index:3000;">
+				  <img  class="chat_img" id="chat"  src="../static/images/chatbotpage.png"></a>
+					<p class="img__description">Looking for Job? Let me help you..</p>
+   </div>
+
+		<!--<form action="action_page.php">
+  <div class="imgcontainer">
+    <img src="../static/images/img_avatar2.png" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit">Login</button>
+    <input type="checkbox" checked="checked"> Remember me
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>-->
+	
+	<div class="footer">			  
+				<p align="center">Copyright Â© 2016 Tata Consultancy Services</p>			  
+			</div>
+	
+	</body>
+	<script>
+	 function openWin() {
+    window.open(window.location.protocol + "//" + window.location.host + "/" + "jobseekerHome");
+	}
+
+	 function openWin2() {
+    window.open(window.location.protocol + "//" + window.location.host + "/" + "recruiterHome");
+	}
+
+	 
+	
+</script>
+<script>
+	$("#jr1").hide();
+	$("#chngeid").hide();
+$("#jS1").on("click",function(){
+		  	$("#jr").hide();
+			$("#jr1").show();
+				$("#chngeid").show();
+				$("#uname1").val("jamesmathew");
+				$("#psw1").val("jamesmathew");
+
+	});
+	$("#R1").on("click",function(){
+		  $("#jr").hide();
+			$("#jr1").show();
+				$("#chngeid").show();
+				$("#uname1").val("johnsmith");
+				$("#psw1").val("johnsmith");
+
+	});
+  
+	$('#chat').bind('click', function() {
+		window.open(window.location.protocol + "//" + window.location.host + "/" + "chatbot_withoutlogin");
+    });
+	$('#chngeid').bind('click', function() {
+       window.location.href = window.location.protocol + "//" + window.location.host;
+    });
+
+	$("#newUser12").bind('click', function() {
+			if(role == "jobseeker"){ 
+				console.log("if(role = 'jobseeker')");
+			 window.open(window.location.protocol + "//" + window.location.host + "/" + "registration_jobseeker");
+			}
+			else
+			{
+			console.log("if(role = 'recruiter)");
+			window.open(window.location.protocol + "//" + window.location.host + "/" + "registration_recruiter");
+			}
+    });
+
+	</script>
+
+	<script>
+		$(document).ready(function() {
+
+			// $.ajax({
+			// 	url: "/logout"
+			// });
+
+			// var role = "jobseeker";
+
+			$("#jS1").bind("click", function() {
+				role = "jobseeker";
+			});
+
+			$("#R1").bind("click", function() {
+				role = "recruiter";
+			});
+
+			$("#sub1").bind("click", function() {
+				var username = $("#uname1").val();
+				var password = $("#psw1").val();
+				
+				$.ajax({
+					url: "/login?uname=" + encodeURIComponent(username) + "&pwd=" + encodeURIComponent(password) + "&role=" + encodeURIComponent(role),
+					success: function(response) {
+						if (response == "OK") {
+
+						window.location.href = window.location.protocol + "//" + window.location.host + "/" + role;
+						} else if (response == "ERR") {
+						alert("Invalid inputs.");
+						}
+					}
+				});
+			});
+		});
+	</script>
+	<style>
+	.img__description {
+  position: absolute;
+  right: 1px;
+  top: 131px;
+  left: -15px;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility:hidden;
+  opacity:0;
+
+   /*transition effect. not necessary 
+  transition: opacity .2s, visibility .2s;*/
+}
+
+#chatbotindex:hover .img__description{
+  visibility:visible;
+  opacity: 1;
+}
+</style>
+
+
+</html>
